@@ -1,2 +1,0 @@
-# vix
- A design language
