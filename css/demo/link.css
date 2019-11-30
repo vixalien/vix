@@ -1,0 +1,20 @@
+.link-demos > li {
+	margin: 5px;
+}
+.link-demo {
+	color: rgb(0, 96, 223);
+	text-decoration: none;
+	cursor: pointer;
+}
+.link-demo:hover, .link-demo:active, .link-demo.hover {
+	text-decoration: underline;
+}
+.link-demo:active, .link-demo.active {
+	background-color: rgba(0, 96, 223, 0.2);
+}
+.link-demo:visited, .link-demo.visited {
+	color: rgb(149, 43, 185) !important;
+}
+.link-demo:visited:active, .link-demo.visited.active {
+	background-color: rgba(149, 43, 185, 0.2);
+}

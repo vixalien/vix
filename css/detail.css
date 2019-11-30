@@ -1,0 +1,16 @@
+summary {
+	display: block;
+	background-image:;
+	cursor: pointer;
+	padding: 0; 
+}
+summary > * {
+	margin: 0;
+}
+details > *:not(summary) {
+	display: none;
+}
+details[open] > *:not(summary) {
+	display: block;
+	transition: 5s;
+}

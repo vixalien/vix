@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vix Typo Design</title>
+    <meta name="description" content="A light webapp design language">
+    <link rel="manifest" href="/manifest.webapp">
+    <meta name="viewport" content="width=device-width">
+    <!-- Load the fonts and stylesheets -->
+    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- No localisations for now
+
+    <script type="text/javascript" src="/js/libs/l10n.js" defer></script>
+    <link rel="prefetch" type="application/l10n" href="/data/locales.ini"/>
+    -->
+    <script type="text/javascript" src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Vix Typo Design
+    </h1>
+    <h2>Text</h2>
+    <p>Surprisingly and Differently, Heading levels go step by step, no jumping. This is to create a unique and directonal flow which is at most simple and smooth.</p>
+    <h3>Headings</h3>
+    <p>A heading acts as a title for the content that immediately follows it. We've declared default sizes for headings in keeping with their standard ranking but this base size can be overridden with more context-specific styling.</p>
+    <div class="box">
+      <div class="strong heading">h1</div>
+      <h1>When zombies arrive, quickly fax judge Pat.</h1>
+      <div class="strong heading">h2</div>
+      <h2>When zombies arrive, quickly fax judge Pat.</h2>
+      <div class="strong heading">h3</div>
+      <h3>When zombies arrive, quickly fax judge Pat.</h3>
+      <div class="strong heading">h4</div>
+      <h4>When zombies arrive, quickly fax judge Pat.</h4>
+      <div class="strong heading">h5</div>
+      <h5>When zombies arrive, quickly fax judge Pat.</h5>
+      <div class="strong heading">h6</div>
+      <h6>When zombies arrive, quickly fax judge Pat.</h6>
+      <div class="strong heading">heading</div>
+      <div class="heading">When zombies arrive, quickly fax judge Pat.</div class="heading">
+    </div>
+    <ul>
+      <li>h1 is for <strong>very</strong> important titles. Try not to use. When used, there must be only one for the whole page or for subsequent <strong>very</strong> important titles. <strong>H1s are not displayed on most screen-readers.</strong></li>
+      <li>h2 was conned as the "usual" heading. It is mainly used as title of the page.</li>
+      <li>h3 as another heading level, used to show (not so) important headings, for example the website's name on a certain blog. Or use it for top navigation entities.</li>
+      <li>Use the h4 to divide your page into sections that one can read separately.</li>
+      <li>You may use h5 to provide additional content, for example examples and references must have a h5 heading.</li>
+      <li>h6 can be thought of as no heading a all, You can use as a caption for important images or subsections.</li>
+      <li>Use heading to caption images which are less important.</li>
+    </ul>
+    <h3>Font Styles</h3>
+    <p>Font Styles are used to provide more meaning to some words or sentences in a paragraph, heading or elsewhere.</p>
+    <div class="box">
+      <div class="strong">light</div>
+      <div class="light">When zombies arrive, quickly fax judge Pat.</div>
+      <div class="strong">small</div>
+      <small>When zombies arrive, quickly fax judge Pat.</small>
+      <div class="strong">normal</div>
+      <div class="normal">When zombies arrive, quickly fax judge Pat.</div>
+      <div class="strong">strong, b</div>
+      <strong>When zombies arrive, quickly fax judge Pat.</strong>
+      <div class="strong">paragraphs, list items and tables.</div>
+      <p>No space is required before these unless at it's ends.</p>
+      <p>Use strong to emphasize a certain word or two. Not suitable for long text.</p>
+    </div>
+    <p>Light is a perfect choice when you to show recognition while not messing things up, for example a substitute for a person's name.
+    <small>Small</small> text is mainly used to describe headings.But you can use it for whatever you like.
+    You may often want to make <span class="smaller">smaller</span> text than that which describe your heading.
+    The rest of this paragraph is how normal text should appear: normal.</p>
+    <h3>hr</h3>
+    <hr>
+    <p>This is <strong>hr</strong>, or <strong>horizontal rule</strong> our best friend who is multipurpose, whether to separate list items or apply a top or bottom border.</p>
+    <h3>Table</h3>
+    <p>Tables are ways to display data where you have many data with related fields where each field has many fields. Examples are displaying users with names, e-mails, and telephone numbers. We see that there are a list of users, each user, in turn having a list made of a name, e-mail and a telephone.</p>
+    <p>To display tables, only headings must be highlighted.</p>
+    <div class="box">
+      <table cellpadding="0" cellspacing="0">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">Names</th>
+            <th scope="col">E-Mail</th>
+            <th scope="col">Telephone Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Angelo Shema</td>
+            <td>geoangercola@gmail.com</td>
+            <td>+999 9999 9999</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Credo Edrik</td>
+            <td>iranzich@gmail.com</td>
+            <td>+999 9999 9990</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Clovis Rugero</td>
+            <td>rugeroclovis@gmail.com</td>
+            <td>+999 9999 9991</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <h3>Blockquote</h3>
+    <p>A blockquote or simply a quote <abbr title="also known as">aka</abbr> excerpt is a length of words taken from somewhere. It should always go with a cite which shows from where it originated and maybe a possible link to the site.</p>
+    <div class="box">
+      <blockquote>
+        KISS: Keep It Simple, Stupid is a technique that can make your design feel and look original. If you mess things up, the Design will be a fail. Relation with ads: You must offer ads a simple place to reside. Not interfering with the main content or navigation.
+        <cite>-The Vix of Design , A book, Chapter 8</cite>
+      </blockquote>
+    </div>
+    <h3>Bi-Directional Overide.</h3>
+    <p>You use BDO when you want the text to change it's direction. This also changes it's alignment. This is especially for RTL or Right to Left direction as in Arabic. In English, the direction id LTR or Left to Right. An Example of the upper blockquote in RTL is shown as follow. Beware of the ending point. </p>
+    <div class="box">
+      <blockquote dir="rtl">
+        KISS: Keep It Simple, Stupid is a technique that can make your design feel and look original. If you mess things up, the Design will be a fail. Relation with ads: You must offer ads a simple place to reside. Not interfering with the main content or navigation.
+        <cite>-The Vix of Design , A book, Chapter 8</cite>
+      </blockquote>
+    </div>
+    <h3>Ending Margin</h3>
+    <p>For access, ( not accessibility )! You may include a buffer area at the end of a page, mainly for reading purposes, so that scrolling is made easier. It can also be a hack for older environments which don't support absolute positioning (  if you used it). For example consider the following 200px space left <strong>intentionally</strong>.</p>
+    <div class="buffer"></div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+a {
+	color: rgb(0, 96, 223);
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+a:active {
+	background-color: rgba(0, 96, 223, 0.2);
+}
+a:visited {
+	color: rgb(149, 43, 185) !important;
+}
+a:visited:active {
+	background-color: rgba(149, 43, 185, 0.2);
+}

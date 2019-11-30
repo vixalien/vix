@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vix Links Design</title>
+    <meta name="description" content="A light webapp design language">
+    <link rel="manifest" href="/manifest.webapp">
+    <meta name="viewport" content="width=device-width">
+    <!-- Load the fonts and stylesheets -->
+    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" href="/css/link.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/demo/link.css">
+    <!-- No localisations for now
+
+    <script type="text/javascript" src="/js/libs/l10n.js" defer></script>
+    <link rel="prefetch" type="application/l10n" href="/data/locales.ini"/>
+    -->
+    <script type="text/javascript" src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      Vix Links Design
+    </h1>
+    <p>Links are clickable <strong>text</strong> that directs a user where he want to go.</p>
+    <p>It is useful that links inherit font family, size, weight, etc from their parents.</p>
+    <h3>Useful Guidelines for links</h3>
+    <ul>
+      <li>Keep the link's text short, Don't give long descriptions as links.</li>
+      <li>Use links for links, not scripts unless links are fallbacks when the link isn't available.</li>
+      <li>Use descriptive text such as <strong>Read More</strong> or <strong>Download</strong></li>
+    </ul>
+    <h3>Don't</h3>
+    <ul>
+      <li>Use <i>Link Text</i> for links such as <strong>Click Here</strong></li>
+    </ul>
+    <h3>Examples</h3>
+    <ul class="box link-demos">
+      <li><span class="link-demo ">Unvisited link</span><br></li>
+      <li><span class="link-demo hover">Unvisited hovered link</span><br></li>
+      <li><span class="link-demo active">Unvisited active link</span><br></li>
+      <li><span class="link-demo visited">Visited link</span><br></li>
+      <li><span class="link-demo visited hover">Visited hovered link</span><br></li>
+      <li><span class="link-demo visited active">Visited active link</span></li>
+    </ul>
+    <link rel="stylesheet" href="css/fonts.css">
+  </body>
+  </html>

@@ -1,0 +1,102 @@
+body {
+	font-family: Inter;
+	font-size: 1em;
+}
+hr {
+	width: 100%;
+	height: 1px;
+	background-color: black;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+ul.inline, ol.inline, dl.inline {
+	display: inline-flex;
+	list-style-type: none;
+	padding-left: 0 !important;
+	margin: 0;
+}
+ul.inline > li, ol.inline > li, dl.inline > dt {
+	padding: .1rem;
+}
+dt {
+	font-weight: bold;
+	margin-bottom: .25rem;
+}
+dd {
+	margin-left: 1rem;
+	margin-bottom: .25rem;
+}
+ul, ol, dl {
+	margin: 0 1em 1.25em 0;
+	padding-left: 1.8rem !important;
+}
+p, table {
+	margin: 0 .5em 1.25em 0;
+	padding: 0;
+}
+cite {
+	display: block;
+	margin-top: 10px;
+}
+blockquote {
+	border-left: 5px solid rgba(0,0,0,0.4);
+	margin-left: 10px;
+	padding-left: 20px;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+	font-family: Metropolis;
+}
+th, tr, td {
+	padding: 0 10px 10px 10px;
+	margin: 0;
+}
+tr:not(:last-child) > td,tr:not(:last-child) > th,tr:only-child > td,tr:only-child > th {
+	border-bottom: 1px solid black;
+}
+.buffer {
+	width: 100%;
+	height: 200px;
+	background-color: transparent;
+	display: block;
+}
+.normal {
+	font-size: 1rem;
+}
+strong,b,.strong {
+	font-weight: bold;
+}
+.smaller {
+	font-size: .8em;
+}
+h1,h2,h3,h4,h5,h6, legend, .heading {
+	margin: 0 0 .25em 0;
+	padding: 0;
+	font-family: Metropolis;
+}
+h1 {
+	font-size: 4rem;
+}
+h2 {
+	font-size: 3.5rem;
+}
+h3 {
+	font-size: 3rem;
+}
+h4 {
+	font-size: 2.5rem;
+}
+h5 {
+	font-size: 2rem;
+}
+h6 {
+	font-size: 1.5rem;
+}
+.heading {
+	font-size: 1.125rem;
+}
+.light {
+	font-weight: 200;
+}

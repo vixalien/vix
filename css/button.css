@@ -1,0 +1,35 @@
+button, input[type="reset"], input[type="button"], input[type="submit"] {
+	background-color:  rgb(98, 0, 238);
+	color: rgb(255,255,255);
+	padding: .3rem 1rem;
+	border: 0;
+	border-radius: 0;
+	font-size: 1rem;
+	letter-spacing: normal;
+	font-family: Inter;
+	font-weight: 500;
+	cursor: pointer;
+	transition: .3s;
+}
+button:hover, input[type="reset"]:hover, input[type="button"]:hover, input[type="submit"]:hover {
+	background-color:  rgb(119, 22, 255);
+	transition: .3s;
+}
+button.outline, input[type="reset"].outline, input[type="button"].outline, input[type="submit"].outline {
+	background-color: transparent;
+	border: .1rem solid rgb(98, 0, 238);
+	color: rgb(98, 0, 238);
+}
+button.outline:hover, input[type="reset"].outline:hover, input[type="button"].outline:hover, input[type="submit"].outline:hover {
+	background-color: rgba(98, 0, 238, 0.15);
+	transition: .3s;
+}
+button.text, input[type="reset"].text, input[type="button"].text, input[type="submit"].text {
+	background-color: transparent;
+	border: 0;
+	color: rgb(98, 0, 238);
+}
+button.text:hover, input[type="reset"].text:hover, input[type="button"].text:hover, input[type="submit"].text:hover {
+	background-color: rgba(98, 0, 238, 0.15);
+	transition: .3s;
+}

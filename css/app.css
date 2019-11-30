@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0.5rem;
+}
+.box {
+	border: .1rem solid rgb(0,0,0);
+	border-radius: 0;
+	margin: 20px 0
+}
+body {
+  font-size: 1rem;
+  background: #fff;
+}
+h1 {
+  margin: 0 0 1rem 0;
+}
+p {
+  font-size: inherit;
+}
+

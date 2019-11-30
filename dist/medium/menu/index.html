@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vix Menu Design</title>
+    <meta name="description" content="A light webapp design language">
+    <link rel="manifest" href="/manifest.webapp">
+    <meta name="viewport" content="width=device-width">
+    <!-- Load the fonts -->
+    <link rel="stylesheet" href="/css/link.css">
+    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- No localisations for now
+    <script type="text/javascript" src="js/app.js" defer></script>
+    <link rel="prefetch" type="application/l10n" href="data/locales.ini"/>
+    -->
+    <script type="text/javascript" src="js/libs/l10n.js" defer></script>
+  </head>
+  <body>
+    <h1>Vix Menu Design</h1>
+    <p>A menu consist of two parts: a menu and it's title. A menu is initially hidden but when the title is clicked, A menu drop off.</p>
+    <div class="box">
+      <a class="menu-toggle" target="#menu">Drop the Menu</a>
+      <ul class="menu menu-drop" id="menu">
+        <li>This one</li>
+        <li>Another one</li>
+        <li>And Another</li>
+        <li>And lastly, a  very long one to confuse things ip.</li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="/js/menu-drop.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vix Form Design</title>
+    <meta name="description" content="A light webapp design language">
+    <link rel="manifest" href="/manifest.webapp">
+    <meta name="viewport" content="width=device-width">
+    <!-- Load the fonts and stylesheets -->
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- No localisations for now
+
+    <script type="text/javascript" src="/js/libs/l10n.js" defer></script>
+    <link rel="prefetch" type="application/l10n" href="/data/locales.ini"/>
+    -->
+    <script type="text/javascript" src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <h1>Vix Form Design</h1>
+    <p>A form is an area with inputs in it. This means it has Collection of inputs, Text Inputs, Choice inputs, Buttons and Validators etc.</p>
+    <h2>Collections</h2>
+    <p>A collection is a group of similar form inputs.</p>
+    <h3>Fielset & Legend</h3>
+    <h4>Fieldset</h4>
+    <p>A fieldset is a collection of similar input fields. Practical use example is in a contact form. There may be Identification Set, Address Set, Phone Set, Email Set etc.</p>
+    <h4>Legend</h4>
+    <p>Every fieldset has a legend, that is it's title.</p>
+    <p>An Example of fieldsets and legend is to be shown below:</p>
+    <p>May It be more practical to use fieldsets and legends as details and Summaries respectively, Yours to describe.</p>
+    <h3>Text Fields</h3>
+    <p>A text field is an area for users to type Information.</p>
+    <div class="box">
+      <div class="input-group">
+        <input type="text" name="demo1">
+      </div>
+    </div>
+    <h4>Placeholders</h4>
+    <p>A placeholder is a prehint that occupies an input when it contains nothing. Placeholders show an example of the expected input, such as suggested search terms or a demonstration of a correctly formatted email address.</p>
+    <div class="box">
+      <div class="input-group">
+        <input type="text" name="demo1" placeholder="Demo Text">
+      </div>
+    </div>
+    <h4>Label</h4>
+    <p>A label is a sample of text that goes with an input to describe it. It show the type of Information to be typed into the input. </p>
+    <div class="box">
+      <div class="input-group">
+        <label>Demo Input: </label>
+        <input type="text" name="demo1">
+      </div>
+    </div>
+    <h5>Floating Labels</h5>
+    <p>A floating label is one that takes the place of a placeholder but become smaller and moves away when the Input is no longer blank.</p>
+    <div class="box">
+      <div class="input-group floating-label">
+        <input type="text" name="demo1" placeholder="" class="underline">
+        <label>Demo Input </label>
+      </div>
+    </div>
+    <h4>Attachments</h4>
+    <p>Attachments or accessories are other custom elements that go with a text input. It may be for validation or password strength or showing the password.</p>
+    <h5>Prefixes and suffixes</h5>
+    <p>Sometimes a field require words before it like an <i>@</i> before a username or a <i>Mr</i> before a name. It may also require a suffix such as <i>.com</i> when registering a site. The prefixes may also be icons.</p>
+    <div class="box">
+      <div class="input-field">
+        <span class="attachment">@</span>
+        <div class="input-group">
+          <input type="text" name="demo1" placeholder="Username">
+        </div>
+        <span class="attachment">Reset</span>
+      </div>
+    </div>
+    <h5>Underline</h5>
+    <p>An underline is a type of line that appears at the bottom of an input when it is active.</p>
+    <p>Click onto the following example to see an animated underline come into life.</p>
+    <div class="box">
+      <div class="input-group">
+        <label>Demo Input: </label>
+        <input type="text" class="underline" name="demo1">
+      </div>
+    </div>
+    <div class="buffer"></div>
+</body>
+</html>

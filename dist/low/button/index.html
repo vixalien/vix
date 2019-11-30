@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Vix Buttons Design</title>
+    <meta name="description" content="A light webapp design language">
+    <link rel="manifest" href="/manifest.webapp">
+    <meta name="viewport" content="width=device-width">
+    <!-- Load the fonts and stylesheets -->
+    <link rel="stylesheet" href="/css/demo/button.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/typo.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- No localisations for now
+
+    <script type="text/javascript" src="/js/libs/l10n.js" defer></script>
+    <link rel="prefetch" type="application/l10n" href="/data/locales.ini"/>
+    -->
+    <script type="text/javascript" src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <h1>Vix Buttons Design</h1>
+    <p>When you want to include links that capture more user attention or aren't in a paragraph or header, You use buttons which are also useful ways to provide access to scripts.</p>
+    <h2>Block Button</h2>
+    <p>A block button is one that describe the typical action a user may do. It is a main button on the page that the user may perform. Only one button of this type may be used in a context such as a form <strong>submit</strong> or <strong>Accept</strong> in a modal or <strong>Create Account</strong>  in a navigation bar. It is the default button type.</p>
+    <p>This button use the primary color as background and the background color as text color. We assume that the primary color is dark violet. Remember contrast issues.</p>
+    <div class="bar">
+        <button>Block Demo</button>
+    </div>
+    <h2>Outline Button</h2>
+    <p>An outline button <abbr title="also known as">aka</abbr> secondary button is another button that describe an action that subsidies a block button, However it is not very good to use it with a block button. This button has a primary-colored border and text and transparent background.</p>
+    <div class="bar">
+        <button class="outline">Outline Demo</button>
+    </div>
+    <h2>Text Button</h2>
+    <p>A text button is a link button, It resembles a link except it is not inline and It emphasize a primary color rather than the usual link color.</p>
+    <div class="bar">
+        <button class="text">Text Demo</button>
+    </div>
+    <div class="buffer"></div>
+</body>
+</html>
